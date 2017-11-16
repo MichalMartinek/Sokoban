@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "TomasVybiral 11/16/2017 15:29",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"map",
+		"width",
+		"height"
+	],
+	"name" : "SKBLevel",
+	"type" : "normal"
+}

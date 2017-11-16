@@ -1,0 +1,3 @@
+atributes
+isPassable
+	^ tileType = #SKBAir

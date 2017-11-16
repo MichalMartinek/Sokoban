@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TomasVybiral 11/16/2017 14:57",
+	"super" : "TestCase",
+	"category" : "SKBCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SKBLevelTesting",
+	"type" : "normal"
+}
