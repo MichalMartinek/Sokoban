@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize 
-	tile: '#SKBAir'
+	tile: (SKBTile withType: '#SKBAir').
