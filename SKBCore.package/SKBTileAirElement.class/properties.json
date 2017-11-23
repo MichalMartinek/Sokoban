@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "RomanLevinzon 11/23/2017 15:46",
+	"super" : "SKBTileElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SKBTileAirElement",
+	"type" : "normal"
+}
