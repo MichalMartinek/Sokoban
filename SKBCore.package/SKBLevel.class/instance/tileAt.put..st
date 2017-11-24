@@ -1,3 +1,7 @@
 accessing
-tileAt: aPoint put: aSKBTile 
-	map at: (aPoint x + (aPoint y * width)) put: aSKBTile 
+tileAt: aPoint put: aSKBTile
+	|aTile|
+	aTile := map at: aPoint x + ((aPoint y - 1) * width).
+	aTile type: (aSKBTile type).
+	aTile entity: (aSKBTile entity)
+	

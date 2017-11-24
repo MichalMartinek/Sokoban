@@ -3,4 +3,4 @@ width: aWidth andHeight: aHeight
 	width := aWidth.
 	height := aHeight.
 	map := Array new: aWidth * aHeight.
-	1 to: (width * height) do: [ :i | map at: i put: SKBTile new. ]
+	1 to: width * height do: [ :i | map at: i put: (SKBTile withType: #SKBWall withEntity: nil with1DPosition: i withWidth: aWidth  withHeight: aHeight ) ]
