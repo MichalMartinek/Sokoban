@@ -4,11 +4,11 @@ The goal of this project is to develop a sokoban game. The application should be
 
 ## Members
 
-*Tomáš Vybíral
-*Michal Martínek
-*Ilia Liferov
-*Roman Levinzon
-*Štěpán Bergl
+* Tomáš Vybíral
+* Michal Martínek
+* Ilia Liferov
+* Roman Levinzon
+* Štěpán Bergl
 
 ## Weekly reports
 
