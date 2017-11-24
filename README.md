@@ -5,7 +5,7 @@ The goal of this project is to develop a sokoban game. The application should be
 ## Members
 
 * Tomáš Vybíral
-* Michal Martínek
+* Michal Martinek
 * Ilia Liferov
 * Roman Levinzon
 * Štěpán Bergl
@@ -14,4 +14,4 @@ The goal of this project is to develop a sokoban game. The application should be
 
 ### 24.11.17
 
-During the first week, we all agreed on strategy and divided work into four parts: game logic, graphics, ui and integration. We also studied the game principles itself and Bloc library. 
+During the first week, we all agreed on strategy and divided work into four parts: game logic, ui and integration. We also studied the game principles itself and Bloc library. 
