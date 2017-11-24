@@ -1,1 +1,0 @@
-SKBAir graphical element

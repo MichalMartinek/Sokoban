@@ -1,1 +1,0 @@
-SKBWall graphical element

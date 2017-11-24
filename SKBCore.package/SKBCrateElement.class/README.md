@@ -1,1 +1,0 @@
-SKB Crate graphical element
