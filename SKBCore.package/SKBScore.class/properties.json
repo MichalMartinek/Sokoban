@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "TomasVybiral 11/24/2017 13:26",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "SKBCore",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tileType",
-		"entity",
-		"position"
+		"steps",
+		"pushes"
 	],
-	"name" : "SKBTile",
+	"name" : "SKBScore",
 	"type" : "normal"
 }
