@@ -1,12 +1,9 @@
 controll
-move: aDirection
+move: aSKBDirection
 	| vector |
-	vector := self vector: aDirection.
+	vector := aSKBDirection vector.
 	vector
 		ifNotNil: [ | newPosition |
 			newPosition := playerPosition + vector.
 			((level isValidPosition: newPosition) and: (level tileAt: newPosition) isPassable)
-				ifTrue: [ (level tileAt: playerPosition) entity: nil.
-					(level tileAt: newPosition) entity: #SKBPlayer.
-					playerPosition := newPosition.
-					onMoveResponse ifNotNil: [ onMoveResponse value. ] ] ]
+				ifTrue: [ (level tileAt: newPosition) entity ifNil: [ self movePlayerToEmptyTile: newPosition ] ifNotNil: [ self tryMoveAndPushBox:  newPosition ] ] ]

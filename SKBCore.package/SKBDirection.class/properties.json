@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [
+		"leftDirection",
+		"rightDirection",
+		"upDirection",
+		"downDirection"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"vector"
+	],
+	"name" : "SKBDirection",
+	"type" : "normal"
+}
