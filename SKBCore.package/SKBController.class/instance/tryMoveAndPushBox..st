@@ -9,4 +9,6 @@ tryMoveAndPushBox: aTilePosition
 					(level tileAt: aTilePosition) entity: #SKBPlayer.
 					(level tileAt: newTilePosition) entity: #SKBCrate.
 					playerPosition := aTilePosition.
+					score incrementStep.
+					score incrementPush.
 					onMoveResponse ifNotNil: [ onMoveResponse value ] ] ]
