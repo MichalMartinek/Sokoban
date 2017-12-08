@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TomasVybiral 12/8/2017 13:05",
 	"super" : "Object",
 	"category" : "SKBCore",
 	"classinstvars" : [ ],
@@ -9,7 +9,8 @@
 		"level",
 		"playerPosition",
 		"onMoveResponse",
-		"score"
+		"score",
+		"endTiles"
 	],
 	"name" : "SKBController",
 	"type" : "normal"
