@@ -2,5 +2,5 @@ initialization
 width: aWidth andHeight: aHeight
 	width := aWidth.
 	height := aHeight.
-	map := Array new: aWidth * aHeight.
-	1 to: width * height do: [ :i | map at: i put: (SKBTile withType: #SKBWall withEntity: nil with1DPosition: i withWidth: aWidth  withHeight: aHeight ) ]
+	map := Array new: width.
+	1 to: width do: [ :x | map at: x put: (Array new: height). 1 to: height do: [ :y | (map at: x) at: y put: (SKBTile withType: #SKBWall withEntity: nil withPosition: x@y) ] ]
