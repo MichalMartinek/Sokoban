@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "TomasVybiral 11/16/2017 15:58",
+	"commentStamp" : "TomasVybiral 12/8/2017 12:58",
 	"super" : "Object",
 	"category" : "SKBCore",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"tileType",
-		"entity"
+		"entity",
+		"position"
 	],
 	"name" : "SKBTile",
 	"type" : "normal"

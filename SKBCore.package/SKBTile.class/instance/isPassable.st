@@ -1,3 +1,3 @@
 atributes
 isPassable
-	^ tileType = #SKBAir
+	^ (tileType = #SKBAir) or: (tileType  = #SKBCrateSlot)

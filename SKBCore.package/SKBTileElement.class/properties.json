@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "MichalMArtinek 11/24/2017 12:10",
+	"super" : "BlElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tile"
+	],
+	"name" : "SKBTileElement",
+	"type" : "normal"
+}

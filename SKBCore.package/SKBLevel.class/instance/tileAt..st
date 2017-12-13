@@ -1,3 +1,3 @@
 accessing
 tileAt: aPoint
-	^ map at: aPoint x + (aPoint y * width)
+	^ (map at: aPoint x) at: aPoint y.
