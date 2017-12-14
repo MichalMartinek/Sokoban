@@ -1,3 +1,3 @@
 acessing
-setWindow: aSpace
+window: aSpace
 	window := aSpace.
