@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SKBTile",
+	"category" : "SKBCore-Tiles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SKBAirTile",
+	"type" : "normal"
+}

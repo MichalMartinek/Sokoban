@@ -1,3 +1,3 @@
 accessing
 type
-	^ self type
+	^ #SKBAir

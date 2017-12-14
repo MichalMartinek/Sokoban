@@ -1,3 +1,0 @@
-initialization
-initialize
-	tileType := #SKBWall
