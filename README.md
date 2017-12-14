@@ -20,4 +20,4 @@ During the first week, we all agreed on strategy and divided work into three par
 ### 15.12.17
 
 We have almost finished game-logic part of the game. Reading level from string was implemented. (Space - empty tile, "#" - wall tile, "P" - player tile, "C" - crate tile, "S" - crateslot tile). According to OOP best practices polymorphism was used.
-Also we started to implement ui part of the game. Showing game window and tiles itself is our next goal. We have hurry-scurry written code of this by now in the ui branch.
+Also we started to implement ui part of the game. Showing game window and tiles itself is our next goal. We have hurry-scurry written code of this in the ui branch by now.
