@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "MichalMArtinek 11/24/2017 12:10",
-	"super" : "BlElement",
+	"commentStamp" : "",
+	"super" : "SKBTileElement",
 	"category" : "SKBCore-Elements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SKBTileElement",
+	"name" : "SKBPlayerTileElement",
 	"type" : "normal"
 }

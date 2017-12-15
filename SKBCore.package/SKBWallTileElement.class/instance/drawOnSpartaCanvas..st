@@ -1,5 +1,5 @@
 drawing
-drawWall: aCanvas
+drawOnSpartaCanvas: aCanvas
 	| lineSpacing |
 	aCanvas fill
 		paint: Color brown;
