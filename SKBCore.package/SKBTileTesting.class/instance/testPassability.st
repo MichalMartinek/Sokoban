@@ -1,7 +1,4 @@
 tests
 testPassability
-	| tile |
-	tile := SKBTile new.
-	self assert: tile isPassable equals: false.
-	tile type: #SKBAir.
-	self assert: tile isPassable equals: true
+	self assert: (SKBWallTile new) isPassable equals: false.
+	self assert: (SKBAirTile new) isPassable equals: true

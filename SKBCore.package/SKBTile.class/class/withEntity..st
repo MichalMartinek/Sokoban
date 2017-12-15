@@ -1,6 +1,6 @@
 initialization
 withEntity: anEntity
 	| tile |
-	tile := SKBTile new.
+	tile := self new.
 	tile entity: anEntity.
 	^tile

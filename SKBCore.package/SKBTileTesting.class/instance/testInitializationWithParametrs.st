@@ -1,9 +1,9 @@
 tests
 testInitializationWithParametrs
 	| tile |
-	tile := SKBTile withType: #SKBAir.
+	tile := SKBAirTile new.
 	self assert: tile type equals: #SKBAir.
 	self assert: tile entity equals: nil.
-	tile := SKBTile withEntity: #SKBPlayer.
+	tile := SKBWallTile withEntity: #SKBPlayer.
 	self assert: tile type equals: #SKBWall.
 	self assert: tile entity equals: #SKBPlayer.
