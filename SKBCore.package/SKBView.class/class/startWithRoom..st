@@ -7,7 +7,7 @@ startWithRoom: aRoomElement
 		show.
 		
 	view := SKBView new.
-	view window: space.
+	view setWindow: space.
 	view room: aRoomElement.
 	
 	^view.
