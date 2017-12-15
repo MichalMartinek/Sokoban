@@ -1,5 +1,5 @@
 drawing
-drawCrate: aCanvas
+drawOnSpartaCanvas: aCanvas
 	| offset |
 	aCanvas fill
 		paint: Color brown;

@@ -1,5 +1,5 @@
 drawing
-drawAir: aCanvas
+drawOnSpartaCanvas: aCanvas
 	aCanvas fill
 		paint: Color lightBlue;
 		path: self boundsInLocal;
