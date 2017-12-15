@@ -1,0 +1,1 @@
+SKBTile graphical element
