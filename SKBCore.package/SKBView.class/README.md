@@ -1,0 +1,1 @@
+This class is responsible for displaying game window and changing screen content.

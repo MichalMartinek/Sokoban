@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "berglste 12/14/2017 21:43",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"window",
+		"room"
+	],
+	"name" : "SKBView",
+	"type" : "normal"
+}

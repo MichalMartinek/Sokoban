@@ -3,12 +3,12 @@ initialize
 	| aText el |
 	super initialize.
 	self background: Color white;
-	layout: (BlGridLayout horizontal cellSpacing: 20);
+layout: BlFrameLayout new;
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	aText := BrRopedText string: 'Sokoban'.
+	aText := BrRopedText string: 'Menu'.
 	el := BlTextElement new
 		text: aText;
-		background: Color paleYellow.
+		background: Color white.
 	self addChild: el
