@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "BlElementEventListener",
 	"category" : "SKBCore-Elements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"window",
-		"eventLstnr"
+		"space"
 	],
-	"name" : "SKBGameElement",
+	"name" : "SKBButtonEventListener",
 	"type" : "normal"
 }

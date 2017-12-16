@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	self
 		geometry: (BlRectangle cornerRadius: 12);
-		size: 200 @ 100;
+		size: 200 @ 120;
 		constraintsDo: [ :c | 
 			c
 				margin:

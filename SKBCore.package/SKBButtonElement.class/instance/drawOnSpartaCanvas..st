@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 drawOnSpartaCanvas: aCanvas
 	| roundedRectangle |
 	roundedRectangle := aCanvas shape roundedRectangle: self boundsInLocal radii: (BlCornerRadii radius: 12).

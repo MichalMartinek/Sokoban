@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 drawButton: aCanvas
 	| font textPainter metrics baseline origin |
 	aCanvas fill
@@ -6,7 +6,7 @@ drawButton: aCanvas
 		path: self boundsInLocal;
 		draw.
 	font := aCanvas font
-		size: 55;
+		size: 30;
 		weightBold;
 		monospace;
 		build.

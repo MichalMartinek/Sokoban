@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"quitEventListener",
+		"btn"
+	],
 	"name" : "SKBMainPageElement",
 	"type" : "normal"
 }

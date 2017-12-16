@@ -1,7 +1,5 @@
 initialization
 initialize
-	| aText el |
-
 	super initialize.
 	count := 0.
 	self background: (BlBackground paint: Color gray darker).
@@ -10,10 +8,3 @@ initialize
 		constraintsDo: [ :layoutConstraints | 
 			layoutConstraints horizontal fitContent.
 			layoutConstraints vertical fitContent ].
-		
-	aText := BrRopedText string: 'Level'.
-	el := BlTextElement new
-		text: aText;
-		background: Color white.
-	self addChild: el
-	

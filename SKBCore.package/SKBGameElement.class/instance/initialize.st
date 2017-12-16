@@ -7,4 +7,5 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	self addChild: SKBMainPageElement new
+	eventLstnr := SKBButtonEventListener new.
+	self addChild: (SKBMainPageElement new quitEventListener: eventLstnr)
