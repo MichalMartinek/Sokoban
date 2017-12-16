@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SKBMenuElement",
+	"instvars" : [
+		"text"
+	],
+	"name" : "SKBButtonElement",
 	"type" : "normal"
 }

@@ -1,3 +1,0 @@
-acessing
-room
-	^room.
