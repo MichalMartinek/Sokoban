@@ -11,4 +11,5 @@ initialize
 						top: 3
 						right: 3
 						bottom: 10
-						left: 3) ]
+						left: 3) ].
+					self addEventHandler: (SKBButtonEventListener new button: self)
