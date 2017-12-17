@@ -7,4 +7,8 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	self addChild: (SKBButtonElement withText: 'GAME').
+	self addChild: (SKBLevelElement new level: (SKBLevel
+		fromString:
+			'#######
+#P C S#
+#######'))
