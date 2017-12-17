@@ -7,10 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"quitEventListener",
-		"btn",
-		"gameElement",
-		"playEventListener"
+		"btn"
 	],
-	"name" : "SKBMainPageElement",
+	"name" : "SKBLevelPageElement",
 	"type" : "normal"
 }

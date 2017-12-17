@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"space"
+		"space",
+		"gameElement"
 	],
-	"name" : "SKBButtonEventListener",
+	"name" : "SKBPlayButtonEventListener",
 	"type" : "normal"
 }
