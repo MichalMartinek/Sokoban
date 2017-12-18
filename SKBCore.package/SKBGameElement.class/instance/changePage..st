@@ -10,4 +10,6 @@ changePage: aPage
 	aPage = #LevelPage
 		ifTrue: [ self addChild: SKBLevelPageElement new ].
 	aPage = #WelcomePage
-		ifTrue: [ self addChild: (SKBWelcomePageElement new gameElement: self) ]
+		ifTrue: [ self addChild: (SKBWelcomePageElement new gameElement: self) ].
+	aPage = #ChooseLevelPage
+		ifTrue: [ self addChild: (SKBChooseLevelPageElement new gameElement: self) ]
