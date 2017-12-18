@@ -1,3 +1,3 @@
 mouse handlers
 clickEvent: anEvent
-	self gameElement changePage: SKBLevelPageElement new
+	self gameElement changePage: #LevelPage
