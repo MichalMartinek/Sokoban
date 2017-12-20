@@ -1,0 +1,1 @@
+Class represents graphic tile element with player.
