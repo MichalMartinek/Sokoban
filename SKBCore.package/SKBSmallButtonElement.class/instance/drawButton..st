@@ -6,7 +6,7 @@ drawButton: aCanvas
 		path: self boundsInLocal;
 		draw.
 	font := aCanvas font
-		size: 10;
+		size: 15;
 		weightBold;
 		monospace;
 		build.

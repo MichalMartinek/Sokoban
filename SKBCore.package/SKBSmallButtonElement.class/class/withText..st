@@ -1,6 +1,6 @@
 as yet unclassified
 withText: aText
 	| el |
-	el:= SKBButtonElement new.
+	el := SKBSmallButtonElement new.
 	el text: aText.
 	^ el
