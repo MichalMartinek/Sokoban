@@ -35,13 +35,13 @@ levelBox
 		background: Color brown;
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
-			c vertical exact: 250.
+			c vertical exact: 350.
 			c
 				margin:
 					(BlInsets
-						top: 50
+						top: 20
 						right: 50
-						bottom: 0
+						bottom: 20
 						left: 50) ];
 		yourself.
 	outer addChild: inner.

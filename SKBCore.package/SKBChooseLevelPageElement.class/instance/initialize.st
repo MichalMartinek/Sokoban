@@ -8,5 +8,7 @@ initialize
 			c horizontal matchParent.
 			c vertical matchParent ].
 	playEventListener := SKBPlayButtonEventListener new.
+	self addChild: self arrowUp.
 	self addChild: self levelBox.
+	self addChild: self arrowDown.
 	self addChild: self footer
