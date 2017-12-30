@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BlElementEventListener",
-	"category" : "SKBCore-Elements",
+	"category" : "SKBCore-Listeners",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
