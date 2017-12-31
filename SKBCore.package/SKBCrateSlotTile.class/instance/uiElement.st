@@ -1,3 +1,7 @@
 as yet unclassified
 uiElement
-	^ SKBCrateSlotTileElement  new
+	entity = #SKBPlayer
+		ifTrue: [ ^ SKBPlayerTileElement new ].
+	entity = #SKBCrate
+		ifTrue: [ ^ SKBCrateTileElement new ].
+	^ SKBCrateSlotTileElement new
