@@ -9,8 +9,9 @@
 		"quitEventListener",
 		"btn",
 		"gameElement",
-		"playEventListener"
+		"playEventListener",
+		"menuEventListener"
 	],
-	"name" : "SKBMainPageElement",
+	"name" : "SKBMenuPageElement",
 	"type" : "normal"
 }
