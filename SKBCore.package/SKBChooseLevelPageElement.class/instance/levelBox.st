@@ -28,6 +28,7 @@ levelBox
 						left: 10) ];
 		yourself.
 	inner addChild: textElement.
+	inner addChild: self stats.
 	inner
 		addChild: ((SKBButtonElement withText: 'P L A Y') addEventHandler: playEventListener).
 	outer := BlElement new
