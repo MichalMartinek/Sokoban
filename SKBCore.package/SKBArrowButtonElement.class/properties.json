@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"window",
-		"eventLstnr"
+		"disabled",
+		"up"
 	],
-	"name" : "SKBGameElement",
+	"name" : "SKBArrowButtonElement",
 	"type" : "normal"
 }
