@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElementEventListener",
+	"category" : "SKBCore-Listeners",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"space",
+		"gameElement"
+	],
+	"name" : "SKBWelcomeButtonEventListener",
+	"type" : "normal"
+}

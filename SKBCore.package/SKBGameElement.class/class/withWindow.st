@@ -1,8 +1,10 @@
 as yet unclassified
-openWindow
+withWindow
 	| space game |
 	space := BlSpace new
-		extent: 300 @ 300;
+		title: 'Sokoban';
+		extent: 900 @ 600;
 		show.
 	game := SKBGameElement new.
-	space root addChild: game.
+	game window: space.
+	^ game

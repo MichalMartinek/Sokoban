@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "berglste 12/14/2017 21:43",
+	"super" : "BlElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text"
+	],
+	"name" : "SKBButtonElement",
+	"type" : "normal"
+}
