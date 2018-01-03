@@ -5,7 +5,6 @@ drawOnSpartaCanvas: aCanvas
 		path: self boundsInLocal;
 		draw.
 		
-		
 	aCanvas stroke
 		path: (aCanvas shape ellipse: ((20@20) corner: 60@60));
 		paint: (Color fromString: '#b20000')  ;
