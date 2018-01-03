@@ -1,7 +1,7 @@
 initialization
 levelBox
 	| text textElement inner outer |
-	text := BrRopedText string: 'Level 0'.
+	text := BrRopedText string: 'Level ' , gameElement levelIndex asString .
 	text
 		attributes:
 			{(BrTextForegroundAttribute paint: Color brown darker darker).

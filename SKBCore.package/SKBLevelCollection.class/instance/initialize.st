@@ -5,17 +5,9 @@ initialize
 		add:
 			(SKBLevel
 				fromString:
-					'    #####          
-    #   #          
-    #C  #          
-  ###  C##         
-  #  C C #         
-### # ## #   ######
-#   # ## #####  SS#
-# C  C          SS#
-##### ### #P##  SS#
-    #     #########
-    #######        ').
+					'#########
+#P C S  #
+#########').
 	levels
 		add:
 			(SKBLevel
@@ -147,7 +139,11 @@ initialize
 ###### CC C #####
      #      #    
      ########    ').
-	levels add: (SKBLevel fromString: ' ###  #############
+	levels
+		add:
+			(SKBLevel
+				fromString:
+					' ###  #############
 ##P####       #   #
 # CC   CC  C C SSS#
 #  CCC#    C  #SSS#
@@ -161,4 +157,4 @@ initialize
 # SS# # CCC CCC #S#
 ##### #       # #S#
     # ######### #S#
-    ###############').
+    ###############')

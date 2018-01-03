@@ -16,5 +16,6 @@ arrowDown
 		yourself.
 	arrow := SKBArrowButtonElement new.
 	arrow up: false.
+	arrow addEventHandler: (SKBArrowDownButtonEventListener new gameElement: gameElement ).
 	el addChild: arrow.
 	^ el
