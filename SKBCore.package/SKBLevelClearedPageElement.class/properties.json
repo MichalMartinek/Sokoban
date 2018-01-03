@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "SKBPageElement",
 	"category" : "SKBCore-Pages",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"gameElement",
 		"nextEventListener"
 	],
 	"name" : "SKBLevelClearedPageElement",

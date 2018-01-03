@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SKBPageElement",
+	"super" : "BlElement",
 	"category" : "SKBCore-Pages",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"quitEventListener",
-		"btn",
-		"menuEventListener"
+		"gameElement"
 	],
-	"name" : "SKBLevelPageElement",
+	"name" : "SKBPageElement",
 	"type" : "normal"
 }
