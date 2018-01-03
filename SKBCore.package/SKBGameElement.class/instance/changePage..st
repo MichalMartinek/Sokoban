@@ -8,7 +8,11 @@ changePage: aPage
 						quitEventListener: eventLstnr;
 						gameElement: self) ].
 	aPage = #LevelPage
-		ifTrue: [ self addChild: (SKBLevelPageElement new gameElement: self) ].
+		ifTrue: [ |page| 
+			page := SKBLevelPageElement new.
+			page gameElement: self.
+			page level: self currentLevel.
+			self addChild: page ].
 	aPage = #WelcomePage
 		ifTrue: [ self addChild: (SKBWelcomePageElement new gameElement: self) ].
 	aPage = #LevelClearedPage

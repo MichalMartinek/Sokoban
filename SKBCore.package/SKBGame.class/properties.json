@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"controller",
-		"view"
+		"gameElement",
+		"levels",
+		"currentLevel"
 	],
 	"name" : "SKBGame",
 	"type" : "normal"
