@@ -5,7 +5,6 @@ changePage: aPage
 		ifTrue: [ self
 				addChild:
 					(SKBMenuPageElement new
-						quitEventListener: eventLstnr;
 						gameElement: self) ].
 	aPage = #LevelPage
 		ifTrue: [ self addChild: (SKBLevelPageElement new gameElement: self) ].

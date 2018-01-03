@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"quitEventListener",
 		"playEventListener",
 		"menuEventListener",
 		"quitBtn"
