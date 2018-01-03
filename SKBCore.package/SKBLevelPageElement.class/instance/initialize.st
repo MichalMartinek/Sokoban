@@ -7,7 +7,7 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	menuEventListener := SKBMenuButtonEventListener new.
+	menuEventListener := SKBLinkEventListener withPage: #MenuPage.
 	self
 		addChild:
 			(SKBLevelElement new
@@ -17,5 +17,4 @@ initialize
 							'#######
 #P C S#
 #######')).
-self
-		addChild: self footer.
+	self addChild: self footer

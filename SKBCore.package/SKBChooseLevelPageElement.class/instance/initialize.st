@@ -7,7 +7,7 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	playEventListener := SKBPlayButtonEventListener new.
+	playEventListener := SKBLinkEventListener withPage: #LevelPage.
 	self addChild: self arrowUp.
 	self addChild: self levelBox.
 	self addChild: self arrowDown.

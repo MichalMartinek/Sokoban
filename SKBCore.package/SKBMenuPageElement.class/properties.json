@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"quitEventListener",
-		"btn",
 		"playEventListener",
-		"menuEventListener"
+		"menuEventListener",
+		"quitBtn"
 	],
 	"name" : "SKBMenuPageElement",
 	"type" : "normal"

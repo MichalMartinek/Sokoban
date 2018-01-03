@@ -8,7 +8,7 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	playEventListener := SKBWelcomeButtonEventListener new.
+	playEventListener := SKBLinkEventListener withPage: #ChooseLevelPage.
 	text := BrRopedText string: 'Sokoban'.
 	text
 		attributes:
@@ -35,8 +35,7 @@ initialize
 						left: 0) ];
 		background: Color lightYellow darker;
 		yourself.
-	el
-		addChild: ((SKBButtonElement withText: 'P L A Y') addEventHandler: playEventListener).
+	el addChild: ((SKBButtonElement withText: 'P L A Y') addEventHandler: playEventListener).
 	self
 		addChild:
 			((BlElement new
