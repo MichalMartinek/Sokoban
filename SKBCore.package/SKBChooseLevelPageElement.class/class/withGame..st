@@ -3,7 +3,7 @@ withGame: aGame
 	| page |
 	page := SKBChooseLevelPageElement new.
 	page addChild: page footer.
-	page playEventListener: SKBPlayButtonEventListener new.
+	page playEventListener: (SKBLinkEventListener withPage: #LevelPage).
 	page gameElement: aGame.
 	page
 		background: Color lightYellow;
