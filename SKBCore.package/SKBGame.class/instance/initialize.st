@@ -1,4 +1,4 @@
 initialization
 initialize
-	levels := SKBLevelCollection new levels.
+	levels := SKBLevelCollection levels.
 	gameElement := SKBGameElement withLevels: levels

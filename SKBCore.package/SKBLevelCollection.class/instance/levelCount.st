@@ -1,3 +1,0 @@
-accessing
-levelCount
-	^ levels size.

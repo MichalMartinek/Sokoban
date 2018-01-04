@@ -1,5 +1,5 @@
 initialization
-initialize
+generateLevels
 	levels := OrderedCollection new.
 	levels
 		add:
