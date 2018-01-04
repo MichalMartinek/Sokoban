@@ -2,17 +2,17 @@ initialization
 footer
 	| el button |
 	el := BlElement new
-		layout: BlFlowLayout new vertical alignCenterRight;
+		layout: BlFlowLayout new horizontal alignCenter;
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
-			c vertical exact: 100.
+			c vertical fitContent.
 			c
 				margin:
 					(BlInsets
 						top: 0
-						right: 50
-						bottom: 0
-						left: 10) ];
+						right: 0
+						bottom: 10
+						left: 0) ];
 		yourself.
 	button := SKBSmallButtonElement withText: 'M E N U'.
 	button addEventHandler: menuEventListener.

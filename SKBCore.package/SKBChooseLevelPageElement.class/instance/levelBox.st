@@ -1,13 +1,13 @@
 initialization
 levelBox
 	| text textElement inner outer |
-	text := BrRopedText string: 'Level ' , gameElement levelIndex asString .
+	text := BrRopedText string: 'Level ' , gameElement levelIndex asString.
 	text
 		attributes:
 			{(BrTextForegroundAttribute paint: Color brown darker darker).
 			BrFontWeightAttribute bold.
 			BrFontEmphasisAttribute normal.
-			(BrFontSizeAttribute size: 60)}
+			(BrFontSizeAttribute size: 55)}
 		from: 1
 		to: text size.
 	textElement := BlTextElement new.
@@ -41,9 +41,9 @@ levelBox
 				margin:
 					(BlInsets
 						top: 20
-						right: 50
+						right: 40
 						bottom: 20
-						left: 50) ];
+						left: 40) ];
 		yourself.
 	outer addChild: inner.
 	^ outer

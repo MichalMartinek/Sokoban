@@ -6,5 +6,5 @@ initialize
 	self layout: (BlGridLayout horizontal cellSpacing: 0).
 	self
 		constraintsDo: [ :layoutConstraints | 
-			layoutConstraints horizontal matchParent .
+			layoutConstraints horizontal fitContent.
 			layoutConstraints vertical fitContent ]
