@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElementEventListener",
-	"category" : "SKBCore-Listeners",
+	"super" : "BlElement",
+	"category" : "SKBCore-Pages",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"space",
 		"gameElement"
 	],
-	"name" : "SKBPlayButtonEventListener",
+	"name" : "SKBPageElement",
 	"type" : "normal"
 }

@@ -7,11 +7,11 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	btn := SKBButtonElement withText: 'Q U I T'.
-	playEventListener := SKBPlayButtonEventListener new.
-	menuEventListener := SKBWelcomeButtonEventListener new.
+	quitBtn := SKBButtonElement withText: 'Q U I T'.
+	playEventListener := SKBLinkEventListener withPage: #LevelPage.
+	menuEventListener := SKBLinkEventListener withPage: #ChooseLevelPage.
 	self
 		addChild: ((SKBButtonElement withText: 'B A C K') addEventHandler: playEventListener).
 	self
 		addChild: ((SKBButtonElement withText: 'M E N U') addEventHandler: menuEventListener).
-	self addChild: btn
+	self addChild: quitBtn

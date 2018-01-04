@@ -1,3 +1,3 @@
 accessing
 gameElement: aGameElement
-	gameElement := aGameElement 
+	gameElement := aGameElement.

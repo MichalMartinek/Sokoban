@@ -1,4 +1,4 @@
 accessing
 gameElement: aGameElement
-	gameElement := aGameElement.
-	menuEventListener gameElement: aGameElement.
+	super gameElement: aGameElement.
+	menuEventListener gameElement: aGameElement

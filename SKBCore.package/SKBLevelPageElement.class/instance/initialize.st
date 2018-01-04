@@ -7,4 +7,5 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	menuEventListener := SKBMenuButtonEventListener new.
+	menuEventListener := SKBLinkEventListener withPage: #MenuPage.
+

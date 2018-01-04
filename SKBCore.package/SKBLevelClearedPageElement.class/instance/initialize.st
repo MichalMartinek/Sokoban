@@ -7,5 +7,5 @@ initialize
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical matchParent ].
-	nextEventListener := SKBWelcomeButtonEventListener new.
-	self addChild: self levelBox.
+	nextEventListener := SKBLinkEventListener withPage: #ChooseLevelPage.
+	self addChild: self levelBox

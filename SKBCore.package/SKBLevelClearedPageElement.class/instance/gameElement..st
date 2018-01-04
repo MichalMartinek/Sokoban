@@ -1,5 +1,4 @@
 accessing
 gameElement: aGameElement
-	gameElement := aGameElement.
-	nextEventListener  gameElement: aGameElement.
-	
+	super gameElement: aGameElement.
+	nextEventListener gameElement: aGameElement
