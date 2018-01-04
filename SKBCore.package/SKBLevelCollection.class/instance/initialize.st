@@ -12,16 +12,9 @@ initialize
 		add:
 			(SKBLevel
 				fromString:
-					'############  
-#SS  #     ###
-#SS  # C  C  #
-#SS  #C####  #
-#SS    P ##  #
-#SS  # #  C ##
-###### ##C C #
-  # C  C C C #
-  #    #     #
-  ############').
+					'#########
+#P C   S#
+#########').
 	levels
 		add:
 			(SKBLevel

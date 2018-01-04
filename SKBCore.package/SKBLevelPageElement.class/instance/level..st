@@ -1,15 +1,15 @@
 accessing
 level: aLevel
 	| levelElement controller listener |
-	levelElement := SKBLevelElement new level: aLevel.
-	levelElement level: aLevel.
+	levelElement := SKBLevelElement new level: aLevel deepCopy.
 	controller := SKBController new.
-	controller level: aLevel.
-	controller responseOnMove: [ 
-		levelElement draw: controller level.
-		controller finishedLevel ifTrue: [ gameElement changePage: #LevelClearedPage ].
-		].
+	controller level: aLevel deepCopy .
+	controller
+		responseOnMove: [ levelElement draw: controller level.
+			controller finishedLevel
+				ifTrue: [ gameElement changePage: #LevelClearedPage ] ].
 	listener := SKBEventListener withController: controller.
-	self gameElement window root addEventHandler: listener.
+	gameElement removeKeyListener.
+	gameElement keyListener: listener.
 	self addChild: levelElement.
 	self addChild: self footer

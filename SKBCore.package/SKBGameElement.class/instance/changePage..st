@@ -2,10 +2,7 @@ as yet unclassified
 changePage: aPage
 	self removeChildren.
 	aPage = #MenuPage
-		ifTrue: [ self
-				addChild:
-					(SKBMenuPageElement new
-						gameElement: self) ].
+		ifTrue: [ self addChild: (SKBMenuPageElement new gameElement: self) ].
 	aPage = #LevelPage
 		ifTrue: [ | page |
 			page := SKBLevelPageElement new.

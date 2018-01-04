@@ -10,7 +10,8 @@
 		"eventLstnr",
 		"levels",
 		"currentLevel",
-		"levelIndex"
+		"levelIndex",
+		"keyLstnr"
 	],
 	"name" : "SKBGameElement",
 	"type" : "normal"
