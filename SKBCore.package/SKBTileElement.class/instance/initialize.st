@@ -1,4 +1,4 @@
 initialization
 initialize
-super initialize.
-self size: 80 @ 80
+	super initialize.
+	self size: self size  @ self size

@@ -5,10 +5,10 @@ drawOnSpartaCanvas: aCanvas
 		paint: Color brown;
 		path: self boundsInLocal;
 		draw.
-	lineSpacing := 80 / 5.
-	0 to: 80 by: lineSpacing do: [ :offset | 
+	lineSpacing := self size / 5.
+	0 to: self size by: lineSpacing do: [ :offset | 
 		aCanvas stroke
-			path: (aCanvas shape line: 0 @ offset to: 80 @ offset);
+			path: (aCanvas shape line: 0 @ offset to: self size @ offset);
 			paint: Color gray;
 			draw.
 		self drawVerticalLinesOn: aCanvas yCord: offset ]
