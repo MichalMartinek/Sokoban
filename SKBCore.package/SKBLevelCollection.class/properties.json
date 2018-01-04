@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "TomasVybiral 12/23/2017 18:05",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [
+		"levels"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"levels"
+	],
+	"name" : "SKBLevelCollection",
+	"type" : "normal"
+}

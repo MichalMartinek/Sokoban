@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElementEventListener",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controller"
+	],
+	"name" : "SKBEventListener",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"disabled",
+		"up"
+	],
+	"name" : "SKBArrowButtonElement",
+	"type" : "normal"
+}

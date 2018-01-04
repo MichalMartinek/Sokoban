@@ -1,0 +1,1 @@
+Class represents one level in the sokoban game

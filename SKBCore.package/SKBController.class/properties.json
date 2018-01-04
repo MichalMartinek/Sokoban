@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "TomasVybiral 12/8/2017 13:05",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"level",
+		"playerPosition",
+		"onMoveResponse",
+		"score",
+		"endTiles"
+	],
+	"name" : "SKBController",
+	"type" : "normal"
+}

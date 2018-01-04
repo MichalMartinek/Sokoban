@@ -1,0 +1,1 @@
+This class allows to simply keep vectors of direction which was select by calling class-side method SKBDirection *desired directio*. (up, down, left, right)

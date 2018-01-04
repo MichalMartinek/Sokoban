@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SKBCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gameElement",
+		"levels",
+		"currentLevel"
+	],
+	"name" : "SKBGame",
+	"type" : "normal"
+}

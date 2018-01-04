@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SKBPageElement",
+	"category" : "SKBCore-Pages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nextEventListener"
+	],
+	"name" : "SKBLevelClearedPageElement",
+	"type" : "normal"
+}

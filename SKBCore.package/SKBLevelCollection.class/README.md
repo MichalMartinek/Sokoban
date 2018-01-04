@@ -1,0 +1,1 @@
+This class contains all awailable levels in old DOS game.

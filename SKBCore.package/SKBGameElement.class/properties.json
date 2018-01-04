@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"window",
+		"eventLstnr",
+		"levels",
+		"currentLevel",
+		"levelIndex",
+		"keyLstnr"
+	],
+	"name" : "SKBGameElement",
+	"type" : "normal"
+}

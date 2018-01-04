@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SKBButtonElement",
+	"category" : "SKBCore-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SKBSmallButtonElement",
+	"type" : "normal"
+}
