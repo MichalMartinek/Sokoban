@@ -4,7 +4,9 @@ tryMoveAndPushBox: aTilePosition
 		ifTrue: [ | vector newTilePosition |
 			vector := aTilePosition - playerPosition.
 			newTilePosition := playerPosition + (2 * vector).
-			((level isValidPosition: newTilePosition) and: (level tileAt: newTilePosition) isPassable)
+			(((level isValidPosition: newTilePosition) 
+			and: (level tileAt: newTilePosition) isPassable)
+			and: (level tileAt: newTilePosition) entity isNil)
 				ifTrue: [ (level tileAt: playerPosition) entity: nil.
 					(level tileAt: aTilePosition) entity: #SKBPlayer.
 					(level tileAt: newTilePosition) entity: #SKBCrate.
