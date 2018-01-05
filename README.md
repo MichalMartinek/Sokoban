@@ -66,7 +66,7 @@ When we were designing our project, we decided to split problem to multiple part
   and aBlockClosure defines which changes will occur in UI.
   
 #### Composite
-  Main object SKBGameElement has many other child objects (not subclasses) (current window, listeners, current level, level collection etc.):
+  Main object SKBGameElement is composed out of many child objects (not subclasses) (current window, listeners, current level, level collection etc.):
 
       BlElement subclass: #SKBGameElement
 	    instanceVariableNames: 'window eventLstnr levels currentLevel levelIndex keyLstnr'
